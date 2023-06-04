@@ -1,0 +1,36 @@
+Please write following program in Python:
+User will input home address, e.g.:
+house# 31, st#12, G-11/3, Islamabad 44000, capital Pakistan
+Please note:
+1- input can be changed, means it would be dynamic.
+2- City name, zip code and country are compulsory
+3- while other part of address is optional.
+
+Your job is to divide address into parts, like:
+address: house# 31, st#12, G-11/3,
+city: Islamabad 
+zip:  44000
+state:  capital 
+country:  Pakistan
+Please note, output will be change on the basis of input.
+
+e.g. if user will not enter state then output would be like:
+
+address: house# 31, st#12, G-11/3,
+city: Islamabad 
+zip:  44000
+country:  Pakistan
+
+And e.g. if user will not enter street address then output would be like:
+
+city: Islamabad 
+zip:  44000
+state:  capital 
+country:  Pakistan
+
+And e.g. if user will not enter both state and street address then output would be like:
+city: Islamabad 
+zip:  44000
+country:  Pakistan
+
+Your program should handle all possible scenarios.
