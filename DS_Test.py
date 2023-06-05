@@ -85,7 +85,7 @@ print("**************************")
 user_input = input("Enter the address: ")
 address_parts = parse_address(user_input)
 
-if address_parts['city'] ==0 or address_parts['zip']==0 or address_parts['country']==0:
+if address_parts['city'] ==None or address_parts['zip']==None or address_parts['country']==None:
     print("City name, zip code and country are compulsory!")
 else:
     
